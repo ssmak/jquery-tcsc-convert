@@ -4,16 +4,17 @@ jQuery plugin for convert between Traditional Chinese and Simplified Chinese (*W
 Usage:
 ```javascript
 <!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<!-- JQuery extension `TCSC Convert` -->
-<script src="js/jquery-tcsc-convert.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- jQuery extension `TCSC Convert` -->
+<!-- <script src="dist/js/jquery-tcsc-convert.js"></script> -->
+<script src="dist/js/jquery-tcsc-convert.min.js"></script>
 <script>
-$(function () {
- 
-    //call as jQuery function
-    console.log(convertSC2TC(convertTC2SC('母親中國')));
-    //directly function call
-    console.log($.sc2tc($.tc2sc('母親中國')));
-});
+  $(function () {
+    $('input').keyup(function ($event) {
+      console.log($event.originalEvent.key);
+      $('#tc-result').html(convertSC2TC($(this).val()));
+      $('#sc-result').html($.tc2sc($(this).val()));
+    });
+  });
 </script>
 ```
