@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ssmak/jquery-tcsc-convert">
-    <img src="https://img.shields.io/badge/version-v1.0.0-blueviolet.svg" />
+    <img src="https://img.shields.io/badge/version-v1.0.1-blueviolet.svg" />
   </a>
   <a href="https://www.npmjs.com/package/jquery-tcsc-convert">
     <img src="https://img.shields.io/badge/env-web-orange.svg" />

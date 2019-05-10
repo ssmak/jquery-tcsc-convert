@@ -1,6 +1,6 @@
 {
   "name": "jquery-tcsc-convert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jQuery plugin for convert between Traditional Chinese and Simplified Chinese (*Without jQuery is also worked).",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,14 @@
   },
   "author": "Steve Mak",
   "license": "MIT",
+  "keywords": [
+    "jquery",
+    "jquery plugin",
+    "chinese",
+    "traditional chinese",
+    "simplified chinese",
+    "tc sc converter"
+  ],
   "bugs": {
     "url": "https://github.com/ssmak/jquery-tcsc-convert/issues"
   },
